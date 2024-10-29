@@ -699,7 +699,7 @@ class Preferences {
         [Preferences.STREAM_TARGET_RESOLUTION]: {
             'default': 'auto',
             'options': {
-                'auto': 'Auto',
+                'auto': '1080',
                 '1080p': '1080p',
                 '720p': '720p',
             },
@@ -708,7 +708,7 @@ class Preferences {
             'default': false,
         },
         [Preferences.PREFER_IPV6_SERVER]: {
-            'default': false,
+            'default': true,
         },
         [Preferences.DISABLE_BANDWIDTH_CHECKING]: {
             'default': false,
@@ -723,13 +723,13 @@ class Preferences {
             },
         },
         [Preferences.SKIP_SPLASH_VIDEO]: {
-            'default': false,
+            'default': true,
         },
         [Preferences.HIDE_DOTS_ICON]: {
             'default': false,
         },
         [Preferences.STREAM_TOUCH_CONTROLLER]: {
-            'default': 'default',
+            'default': 'all',
             'options': {
                 'default': 'Default',
                 'all': 'All games',
@@ -765,7 +765,7 @@ class Preferences {
             'default': '',
         },
         [Preferences.VIDEO_FILL_FULL_SCREEN]: {
-            'default': false,
+            'default': true,
         },
         [Preferences.VIDEO_SATURATION]: {
             'default': 100,
